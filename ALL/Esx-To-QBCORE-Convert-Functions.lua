@@ -12,7 +12,7 @@ esx:showNotification -> QBCore:Notify
 
 ESX.GetPlayerData -> QBCore.Functions.GetPlayerData
 
-ESX.IsPlayerLoaded -> None (checks if player is loaded so not relevant)
+ESX.IsPlayerLoaded -> LocalPlayer.state.isLoggedIn
 
 ESX.SetPlayerData -> QBCore:Player:SetPlayerData
 
